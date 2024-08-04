@@ -1,0 +1,21 @@
+.card-container {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .box-container {
+    width: 280px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    padding: 40px;
+    margin: 100px;
+    box-shadow: 0px 0px 8px 4px #d8d8d8;
+  }
+}
