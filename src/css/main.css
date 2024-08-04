@@ -1,0 +1,186 @@
+.card-container {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container .box-container {
+  width: 280px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  padding: 40px;
+  margin: 100px;
+  box-shadow: 0px 0px 8px 4px #d8d8d8;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+form input {
+  border: 2px solid #d8d8d8;
+  border-radius: 4px;
+  padding: 6px 10px;
+}
+form button {
+  margin-top: 10px;
+  background-color: salmon;
+  border: none;
+  border-radius: 10px;
+  padding: 6px 0px;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0px 0px 10px 1px salmon;
+  outline: none;
+}
+form button:active {
+  background-color: rgba(250, 128, 114, 0.823);
+}
+
+.homepage {
+  width: 280px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  padding: 40px;
+  margin: 100px;
+  box-shadow: 0px 0px 8px 4px #d8d8d8;
+}
+.homepage button {
+  margin-top: 5px;
+  background-color: salmon;
+  border: none;
+  border-radius: 10px;
+  padding: 6px 100px;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0px 0px 10px 1px salmon;
+  outline: none;
+}
+.homepage button:active {
+  background-color: rgba(250, 128, 114, 0.823);
+}
+.homepage ol {
+  margin-left: 20px;
+}
+.homepage input {
+  width: 40px;
+  text-align: center;
+}
+
+.question-box {
+  width: 280px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  padding: 40px;
+  margin: 100px;
+  box-shadow: 0px 0px 8px 4px #d8d8d8;
+}
+.question-box .quiz-navbar {
+  display: flex;
+  flex: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+}
+.question-box .quiz-navbar-refresh {
+  margin-bottom: 40px;
+  display: flex;
+  flex: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  gap: 48px;
+  top: 157px;
+  left: 637px;
+}
+.question-box .question-page p {
+  text-align: center;
+}
+.question-box .question-page .divider {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+.question-box .question-page .divider li {
+  display: flex;
+  justify-content: center;
+  padding: 8px 0px;
+  list-style-type: none;
+}
+.question-box .question-page .divider li button {
+  width: 120px;
+  height: 60px;
+  margin-top: 15px;
+  background-color: salmon;
+  border: none;
+  border-radius: 10px;
+  padding: 6px 0px;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0px 0px 10px 1px salmon;
+  outline: none;
+}
+.question-box .question-page .divider li button:active {
+  background-color: rgba(250, 128, 114, 0.823);
+}
+
+.result-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.result-page button {
+  margin-top: 15px;
+  background-color: salmon;
+  border: none;
+  border-radius: 10px;
+  padding: 6px 100px;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0px 0px 10px 1px salmon;
+  outline: none;
+}
+.result-page button:active {
+  background-color: rgba(250, 128, 114, 0.823);
+}
+.result-page ul li {
+  list-style: none;
+}
+.result-page .result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+}
+
+/*# sourceMappingURL=main.css.map */
