@@ -1,0 +1,12 @@
+@use '../components/card/Card.scss';
+@use '../pages/login/Login.scss';
+@use '../pages/home/Home.scss';
+@use '../pages/quiz/Quiz.scss';
+@use '../pages/quiz/result/Result.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+}
