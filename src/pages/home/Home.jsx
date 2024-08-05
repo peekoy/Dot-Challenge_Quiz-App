@@ -42,7 +42,6 @@ export default function Home() {
           <button onClick={handleClick}>Mulai Quiz</button>
         </div>
       </div>
-      {/* </GlobalContext.Provider> */}
     </>
   );
 }
