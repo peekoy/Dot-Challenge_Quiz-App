@@ -12,7 +12,7 @@ export default function Quiz() {
   const [correctAnswer, setCorrectAnswer] = useState(0);
   const [incorrectAnswer, setIncorrectAnswer] = useState(0);
   const [isQuizDone, setIsQuizDone] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(18000);
+  const [timeLeft, setTimeLeft] = useState(180000);
   const [timerRunning, setTimerRunning] = useState(true);
   const [start, setStart] = useState(dataFromHomepage.state.start);
 
